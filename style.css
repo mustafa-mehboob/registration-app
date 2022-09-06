@@ -1,0 +1,81 @@
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
+
+  body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.form {
+    background-color: whitesmoke;
+    margin: 4% 8% ;
+    padding: 3%;
+    border-radius: 4px;
+    display: block;
+}
+
+.heading-text-h1 {
+    text-align: center;
+    font-size: 2vw;
+    color: #e73c7e;
+}
+.heading-line {
+    border-bottom: 1px solid rgb(156, 156, 156);
+    margin: 2% 0%;
+}
+
+.form-control {
+
+}
+.col-form-label {
+    color: #148bb6;
+}
+.btn {
+    width: -webkit-fill-available;
+}
+
+
+
+  .form-width {
+    margin: 2% 4% ;
+  }
+  table{
+    width: 100%;
+    border: 1px solid;
+  }
+  th, td {
+    border: 1px solid;
+  }
+
+.tb-dt-txt {
+    text-align: center;
+    padding: 1% 0;
+    font-size: 1vw;
+}
+.col-form-label1 {
+    color: #148bb6;
+    font-size: 1vw;
+}
+
+@media only screen and (max-width: 450px) {
+    .heading-text-h1 {
+        font-size: 3vw;
+    }
+    
+  }
